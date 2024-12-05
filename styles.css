@@ -1,0 +1,113 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; 
+    color: #fff; 
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #58080886; 
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    height: 100vh; 
+}
+
+.sidebar .profile img {
+    margin-bottom: 20px; 
+}
+
+.sidebar nav ul {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+
+.sidebar nav ul li {
+    margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 1.2rem;
+    display: block;
+    text-align: center; 
+}
+
+.sidebar footer {
+    margin-top: 10px; 
+    color: #ccc; 
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin: 0 0 10px;
+    color: #470707; 
+}
+
+.intro p {
+    color: #ccc;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000; 
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #600000;
+    transition: 0.8s; 
+}
+
+.social-media {
+    margin-top: 20px; 
+}
+
+.social-icon {
+    color: #fff; 
+    font-size: 1.5rem; 
+    margin: 0 10px; 
+    text-decoration: none; 
+}
+
+.social-icon:hover {
+    color: #ccc; 
+}
+
+.content .intro {
+    margin-right: 45%;
+    padding-right: 25%;
+}
+
+
+
+
